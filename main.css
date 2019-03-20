@@ -1,0 +1,80 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f3f3f3
+}
+
+li {
+    float: left;
+    border-right: 1px solid #333333;
+}
+
+li a {
+    display: block;
+    color: #333333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111
+}
+.active {
+    background-color: #4caf50;
+}
+li:last-child {
+    border-right: none;
+}
+h1 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+.footer{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: #f3f3f3;
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    
+}
+.inLine {
+    display: inline;
+    border-right: 1px solid black;
+    padding: 14px 14px 14px 14px; 
+}
+.inLine:last-child {
+    border-right: none;
+    overflow: hidden;
+}
+#example1 {
+    border: 1px solid black;
+    padding: 500px;
+    background-image: url("http://i.imgur.com/qYyWj.jpg");
+    background-repeat: no repeat;
+    background-size: 100% 100%;
+}
+#boxcenter {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+* {
+    box-sizing: border-box;
+}
+.box {
+    float: left;
+    width: 30%;
+    padding: 25px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
